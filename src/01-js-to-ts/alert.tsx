@@ -20,3 +20,7 @@ export const Alert: FC<Props> = ({ messageId, variant }) => {
     </div>
   );
 };
+
+// The above code is a functional component that uses the useIntl hook to get the formatMessage function. The formatMessage function is used to format the message with the id passed in the messageId prop. The variant prop is used to set the variant of the alert.
+
+// The Alert component is used in the App component. the component eceives two props named messageId and variant. The messageId is used to get the message from the messages object. The variant is used to set the variant of the alert. The component uses the useIntl hook to get the formatMessage function. The formatMessage function is used to format the message with the id passed in the messageId prop. The variant prop is used to set the variant of the alert.
