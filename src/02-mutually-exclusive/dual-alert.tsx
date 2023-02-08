@@ -39,3 +39,11 @@ export const DualAlert: FC<Props> = ({
     </div>
   );
 };
+
+
+// mutually exclusive props in React
+// two props might be mutually exclusive
+// you must pass one of them but not both
+
+// use an or between multiple prop types
+//  - with an optional 'never' to prevent illegal combinations
