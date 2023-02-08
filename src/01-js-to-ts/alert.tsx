@@ -6,6 +6,7 @@ type Props = {
   variant: 'primary' | 'secondary' | 'success' | 'danger';
 };
 
+// #\functional component
 export const Alert: FC<Props> = ({ messageId, variant }) => {
   const { formatMessage } = useIntl();
 
