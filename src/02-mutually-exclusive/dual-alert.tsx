@@ -47,3 +47,5 @@ export const DualAlert: FC<Props> = ({
 
 // use an or between multiple prop types
 //  - with an optional 'never' to prevent illegal combinations
+
+// In React, mutually exclusive component props are properties passed to a component that cannot be used together. They are often used to control the behavior or appearance of a component in a specific manner, where only one of the props can be used at a time. For example, a button component in React might have mutually exclusive props such as "primary" and "secondary" that determine its appearance, and only one can be selected to be applied. The implementation of mutually exclusive component props will vary based on the design and requirements of the component, but it typically involves using conditional logic in the component's render method to determine which prop to use.
